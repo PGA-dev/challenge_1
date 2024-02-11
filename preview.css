@@ -34,7 +34,7 @@ video {
 
 /*CSS REGULAR CARP*/
 
-/*Flexbox for layout general*/
+/*Grid for layout general Flexbox for everything else*/
 
 body {
     background-color: var(--main_background);
