@@ -204,5 +204,15 @@ p{
         padding: .7rem;
     }
 
-
+    .attribution {
+        font-family: 'papyrus';
+        font-size: 10px;
+        text-align: center;
+        padding-top: 5rem;
+        padding-right: 8rem;
+    }
+    
+    .attribution a {
+        color: hsla(228, 45%, 44%,1);
+    }
 }
