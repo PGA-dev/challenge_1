@@ -99,6 +99,7 @@ p{
     font-size: 10px;
     text-align: center;
     margin: 1rem 0rem 1rem;
+    color: rgb(201, 207, 230);
 }
 
 .attribution a {
@@ -209,10 +210,12 @@ p{
         font-size: 10px;
         text-align: center;
         padding-top: 5rem;
-        padding-right: 8rem;
+        padding-right: 5rem;
+        color: rgb(201, 207, 230);
     }
     
     .attribution a {
+        padding-left: .1rem;
         color: hsla(228, 45%, 44%,1);
     }
 }
