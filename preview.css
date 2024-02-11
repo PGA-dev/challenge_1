@@ -162,10 +162,13 @@ p{
 
 @media(max-width: 900px) {
     h1{
-        font-size: 25px;
+        font-size: 30px;
+        margin-right: 1rem;
+        margin-left: 0rem;
     }
     h2{
-        font-size: 25px;
+        font-size: 29px;
+        padding-right: 1rem;
     }
 
     .flexerContainer {
@@ -176,12 +179,19 @@ p{
     }
     .flexerContainer>.text {
         height:60%;
-        width:100%
-        
+        width:100%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
     }
     .flexerContainer>.image{
         height: 40%;
-        width:100%
+        width:100%;
+    
+    }
+    .main{
+        margin-right: 2.5rem;
+        margin-left: 1.5rem;
     }
     .stat{
         flex-flow: column;
@@ -190,6 +200,7 @@ p{
     }
 
     .stat div{
+        margin-right: .5rem;
         padding: .7rem;
     }
 
